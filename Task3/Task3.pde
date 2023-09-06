@@ -1,11 +1,16 @@
 // Task 3.a
 // Declare and initialize variables
-int a = 5;
+int a = 10;
 int b = 5;
 
-// Print results
 println("3.a");
-println(a == b ? "Success!" : "Failure!");
+
+// Print results
+if (a == 10 || b == 10 || a+b == 10) {
+  println("Success!");
+} else {
+  println("Failure!");
+}
 
 // Task 3.b
 // Declare and initialize variables

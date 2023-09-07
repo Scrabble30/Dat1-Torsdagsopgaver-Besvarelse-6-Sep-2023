@@ -26,7 +26,7 @@ for (int start = 20; start >= 0; start--)
 println();
 println("Task 4.d");
 // Print values from 20-4, then print the next 3 values as words and finaly print 0 as "Take Off!"
-for (int start = 20; start >= 0; start--)
+for (int start = 20; start >= 0; start--) {
   switch (start) {
   case 3:
     println("Three");
@@ -41,6 +41,7 @@ for (int start = 20; start >= 0; start--)
     println("Take Off!");
   default:
   }
+}
 
 // Task 4.e
 println();

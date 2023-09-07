@@ -13,15 +13,12 @@ void methodOne()
   println("Task 5.a");
   int i = 1000; // You are not allowed to change this line.
 
-  String output = "";
   int max = 10;
 
   if (i > max)
   {
-    output = "i is greater than "+max+".";
+    println("i is greater than "+max+".");
   }
-
-  println(output);
 }
 
 /*

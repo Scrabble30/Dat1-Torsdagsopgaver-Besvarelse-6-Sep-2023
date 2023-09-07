@@ -27,16 +27,20 @@ println();
 println("Task 4.d");
 // Print values from 20-4, then print the next 3 values as words and finaly print 0 as "Take Off!"
 for (int start = 20; start >= 0; start--)
-  if (start > 3)
-    println(start);
-  else if (start == 3)
+  switch (start) {
+  case 3:
     println("Three");
-  else if (start == 2)
+    break;
+  case 2:
     println("Two");
-  else if (start == 1)
+    break;
+  case 1:
     println("One");
-  else
+    break;
+  case 0:
     println("Take Off!");
+  default:
+  }
 
 // Task 4.e
 println();

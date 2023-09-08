@@ -12,7 +12,7 @@ void setup() {
   background(255);
 
   fill(0);
-  rect(width*.1, width*.1, width*.8, height-width*.2);
+  rect(width*.1, width*.1, width*.8, height-width*.2, 10);
 }
 
 void draw() {

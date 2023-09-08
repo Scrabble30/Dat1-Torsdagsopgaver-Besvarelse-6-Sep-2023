@@ -15,19 +15,25 @@ for (int i = 0; i <= 20; i++)
 // Task 4.c
 println();
 println("Task 4.c");
+// Declare and initialize the start variable
+int start = 20;
+
 // Print values from 20-1 and at 0 print "Take Off!"
-for (int start = 20; start >= 0; start--)
-  if (start != 0)
-    println(start);
+for (int i = start; i >= 0; i--)
+  if (i != 0)
+    println(i);
   else
     println("Take Off!");
 
 // Task 4.d
 println();
 println("Task 4.d");
+// Assign the start variable
+start = 20;
+
 // Print values from 20-4, then print the next 3 values as words and finaly print 0 as "Take Off!"
-for (int start = 20; start >= 0; start--) {
-  switch (start) {
+for (int i = start; i >= 0; i--) {
+  switch (i) {
   case 3:
     println("Three");
     break;
@@ -39,7 +45,9 @@ for (int start = 20; start >= 0; start--) {
     break;
   case 0:
     println("Take Off!");
+    break;
   default:
+    println(i);
   }
 }
 
@@ -58,15 +66,16 @@ while (i <= 20) {
 }
 
 println();
-// Declare and initialize count down variable
-int start = 20;
+// Assign the start variable and the counter variable
+start = 20;
+i = start;
 
 // Print with a while-loop values from 20-1 and at 0 print "Take Off!"
-while (start >= 0) {
-  if (start != 0)
-    println(start);
+while (i >= 0) {
+  if (i != 0)
+    println(i);
   else
     println("Take Off!");
 
-  start--;
+  i--;
 }
